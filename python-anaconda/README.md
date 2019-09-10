@@ -6,13 +6,11 @@ conda is a tool for managing and deploying applications, environments and packag
 Options:
 
 positional arguments:
-  command
-    clean        Remove unused packages and caches.
-    config       Modify configuration values in .condarc. This is modeled
-                 after the git config command. Writes to the user .condarc
-                 file (/home/ted/.condarc) by default.
-    create       Create a new conda environment from a list of specified
-                 packages.
+	command
+		clean        Remove unused packages and caches.
+		config       Modify configuration values in .condarc. This is modeled after the git config command. Writes to the user .condarc
+		file (/home/ted/.condarc) by default.
+		create       Create a new conda environment from a list of specified packages.
     help         Displays a list of available conda commands and their help
                  strings.
     info         Display information about current conda install.
