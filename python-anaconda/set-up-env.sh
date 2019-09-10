@@ -23,3 +23,6 @@ conda env export > environment.yml
 
 #Create environment from environment.yml file
 conda env create -f environment.yml
+
+#Update environment after changed
+conda env update -f environment.yml
